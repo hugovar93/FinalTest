@@ -1,0 +1,22 @@
+Case: 10142271 (https://firebase.lightning.force.com/lightning/r/Case/5005Y00001vgEFgQAM/view)
+
+Este caso trae una pregunta de un estudiante que esta haciendo su tesis y anda revisando la documentacion de cuantas transacciones nos permite hacer por segundo... y manda este link https://firebase.google.com/docs/firestore/quotas#writes_and_transactions 
+y pregunta si es posible aumentar esos limites... Segun entiendo esos limites marcados son los que ofrece el Spark Plan y estos incrementan pagando el Blaze plan?  (https://firebase.google.com/pricing/) entiendo esto a partir tambien de esta respuesta que encontre https://stackoverflow.com/questions/55818648/firestore-500-writes-per-second-to-one-collection 
+Quisiera checarlo aqui antes de armar una respuesta erronea.
+
+
+
+Hello Tim, 
+
+I hope you are doing great. Thank you for reaching out Firebase Support, this is Hugo and I will be happy to help you with your inquiry. 
+I understand that you would like to know if you can increase the limits mentioned here (https://firebase.google.com/docs/firestore/quotas#limits), unfortunatelly, the answer is no, they are part of the Standar Limits for Cloud Firestore and these are hard limits. 
+Talking about the example you mentioned, you will have to create that app taking into consideration all the limits that are mentioned in this documentation(https://firebase.google.com/docs/firestore/quotas#limits) also, I would recommend you to check this video (https://www.youtube.com/watch?v=v_hR4K4auoQ) so you can have a better understanding on how Cloud Firestore works.
+
+I hope you find this information useful.
+
+Thank you very much and have a nice day. 
+
+Regards, 
+
+Hugo Varela.
+

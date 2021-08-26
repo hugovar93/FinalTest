@@ -1,0 +1,52 @@
+Case: 10141278 (https://firebase.lightning.force.com/lightning/r/Case/5005Y00001vftyaQAA/view)
+El dev reporta que le han estado llegando correos de que su RealTime database tiene insecure rules y las mandó
+".read": "auth! = null",
+".write": "auth! = null"
+
+Estaba leyendo y justo dice que no es recomendable ponerlas asi en esta doc: https://firebase.google.com/docs/rules/insecure-rules#access_for_any_authenticated_user
+Tambien cheque en este PB: https://g3doc.corp.google.com/company/teams/dps/Firebase/playbooks/rtdb.md?cl=head#insecure-db
+
+Entonces estaba planeando decirle esto: 
+
+ Hello Octave, 
+
+I hope you are doing great. Thank you for reaching out Firebase Support, this is Hugo and I will be Happy to help you out. 
+
+I understand that you have been receiving emails letting you know that your RealTime Database has insecure rules.
+This is because the rules that you provided (".read": "auth != null" and ".write": "auth != null") are considered insecure because that means that anyone who logs into the app will have full access and can steal, modify or delete all data. 
+Here you can find more information to understand Firebase RealTime Database Rules (https://firebase.google.com/docs/database/security/) and also you can check this documentation about how to avoid insecure rules (https://firebase.google.com/docs/rules/insecure-rules).
+
+I hope this information will be useful for you. 
+
+Thank you very much and have a nice day. 
+
+Regards, 
+
+Hugo Varela.
+
+
+=======================================================================================
+
+Si regreso con algo el Octave 
+
+Dice todos sus usuarios necesitan permisos pa todo en la BD... que si tengo alguna idea, pero me suena a que quiere que le escriba sus reglas, entonces, no se si como tal le deba responder o no, en caso de que si, le responderia esto: 
+
+Hello Octave, 
+
+I hope you are doing great. I understand, unfortunately I can not help you out designing your rules as it is out of our scope (https://firebase.google.com/support/scope#general_consulting_services). 
+However, I would recommend you to check out these documentation links that you can follow in order to make your rules more secure.
+
+- Understand Firebase Realtime Database Rules (https://firebase.google.com/docs/database/security/)
+- Basic security rules (https://firebase.google.com/docs/rules/basics)
+- Avoid insecure rules (https://firebase.google.com/docs/rules/insecure-rules)
+
+Also, I would recommend you to check our community channels (https://firebase.google.com/support) such as Stack Overflow where the development community and even Firebase developers can help you out with these kind of scenarios. Here is a thread from the community that might also help you out : https://stackoverflow.com/questions/51392059/firebase-email-saying-my-realtime-database-has-insecure-rules
+
+Additionally, Firebase lets you add Custom Claims to your control access, this means you can add a custom element to your token to check the privileges of each user, this helps you to divide your users into the different roles that you might have in your application. If you want to take a look at it, here is the related documentation (https://firebase.google.com/docs/auth/admin/custom-claims).
+
+Thank you very much for reaching out Firebase Support and have a nice day.
+
+Regards, 
+
+Hugo Varela.
+ 

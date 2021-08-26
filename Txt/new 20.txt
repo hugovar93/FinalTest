@@ -1,0 +1,92 @@
+Case: 10142710 (https://firebase.lightning.force.com/lightning/r/Case/5005Y00001vgOeAQAU/view)
+
+En este caso el DEV pregunta que qué pasaria si se rebasa la quota de 3K/s de las backgroud functions
+
+Estaba leyendo justo sobre estas quotas (https://firebase.google.com/docs/functions/quotas) y vi que hay una parte al final de la documentacion donde responde a su pregunta: https://firebase.google.com/docs/functions/quotas#when_you_reach_a_quota_limit
+
+Entonces pensaba decirle lo que viene ahi: 
+
+
+Hello Brady, 
+
+I hope you are doing great. Thank you for reaching out Firebase Support, this is Hugo and I will be happy to help you with this inquiry. 
+
+Answering you question, when a function consumes all of an allocated resource, the resource becomes unavailable until the quota is refreshed or increased (in this case, the quota that you mention can not be increased as per the official documentation https://firebase.google.com/docs/functions/quotas#additional_quotas_for_background_functions). This may mean that your function and all other functions in the same project will not work until then. A function returns an HTTP 500 error code when one of the resources is over quota and the function cannot execute. You can take a look at this iformation here.
+
+I hope you find this information useful. Have a nice day. 
+
+Regards,
+
+Hugo Varela.
+
+
+=======================================
+DEV Pregunta que se le recomendaria para poder llegar a 50K
+=======================================
+
+El dev dice que qué le recomendamos si en su app habria ocaciones en que podria haber 50K invocaciones y el limite es de 3K y no se puede aumentar.
+
+Segun yo, como es una cuota que no se puede incrementar, su diseño se tendria que adaptar a ese limite y ademas ya saldria de nuestro scope... 
+
+
+Hello Brady, 
+
+I hope you are doing great. 
+
+In order to understand the spikes that you mentioned, would it be possible for you to share an example of how the application's workflow would be.
+We would need to understand which products are involved in this process and how they will interact with each other within the workflow, it seems like firestore, storage and functions are involved but, we would like you to confirm this. 
+We understand that you might have an spike of 50k+ invocations but, once you provide this information, we might come up with a recomendation so you can mitigate that. 
+
+Thank you very much and have a nice day. 
+
+Regards, 
+
+Hugo Varela. 
+
+
+
+====
+
+
+Brady responded. 
+
+Esto es lo que me respondio el dev:
+
+```
+Here is a brief outline of the use case I am referring to: our client has rented a stadium that can hold approximately 50k people. The stadium participants will be viewing a countdown timer, and when the timer hits 0 they will all attempt to upload a file to cloud storage. These files need to be processed, and then references to them will be stored in Firestore if the file metadata meets our requirements. 
+
+To simplify things, here is the workflow: countdown timer hits 0 > files are uploaded > onFinalize storage trigger processes files > references to the files are stored in Firestore
+
+Due to the nature of the app, these types of load fluctuations will be frequent. There could be 100 concurrent uploads, or 50k-100k and beyond. We need to know how the FIrebase cloud function background triggers can scale in order to meet these requirements.
+```
+
+Estuve leyendo y vi que las Functions tienen una parte donde habilitas un retry para que si falla la function, se pueda volver a ejecutar pero tambien hay ciertos puntos a tomar en cuenta como ponerle un fin y que no quede en un loop infinito, eso lo encontre aqui https://firebase.google.com/docs/functions/retries tambien el video que viene ahi, lo explica muy padre (https://www.youtube.com/watch?v=Pwsy8XR7HNE)
+Pero tambien me encontre que se recomienda que si vas a usar un retry, utilices el algoritmo de Exponential Backoff (https://cloud.google.com/storage/docs/retry-strategy) igual encontre un video donde explica como funcionaria ese algoritmo (https://www.youtube.com/watch?v=eXNqP9k-oj8)
+
+Yo creearia que le podemos decir "Mira, estan estas opciones que funcionan asi y que te podrian ayudar, checalas, pero lamentablemente ya diseñar tu aplicacion dale fuera de nuestro alcance" no sé si me fui por otro lado o si se me anda pasando algo. 
+
+
+============
+Response to Brady
+============
+
+
+Hello Brady, 
+
+I hope you are doing great. 
+
+Thank you for sharing your application workflow, based on that, we could understand a little bit more how it would work and came up with a couple of suggestions: 
+
+1. Firebase Functions have an option to retry the function once it has failed and until it succeed. You can enable the retry property (https://firebase.google.com/docs/functions/retries#using_the) through the console. There are some recommendations (https://firebase.google.com/docs/functions/retries#best_practices) to take into consideration when you are using the retries like "set an end condition" because as mentioned before, it would try until the function succeed and it could end up into a infinite loop. Also, it is advisable that when you use this retry option, you should make use of a "exponential backoff algorithm" (https://cloud.google.com/storage/docs/retry-strategy), let's say that your function fails, you set the time to retry this function to 1s, it retries the function and fails again, this algorithm increments 2x the time you had set and now you would have to wait 2s to retry and so on until the function succeed.
+
+2. The second option would be that you implement a queue for these requests to ensure the execution of them one after the other, for this, I would recommend you to take a look a this entry for firebase-queue (https://firebase.googleblog.com/2015/05/introducing-firebase-queue_97.html) also, you can find more information on how firebase-queue and its methods works in this repository(https://github.com/FirebaseExtended/firebase-queue/blob/HEAD/docs/guide.md), it is important to mention that this is for Realtime Database, but it gives you an idea of how you could implement a queue manager. 
+
+I really hope that you find this information useful. If you have any other issue or question, please do not hesitate to reach to us through https://firebase.google.com/support.
+
+Thank you very much and have a nice day. 
+
+Regards, 
+
+Hugo Varela. 
+
+

@@ -1,0 +1,9 @@
+Case: 10141452
+https://firebase.lightning.force.com/lightning/r/Case/5005Y00001vfx07QAA/view
+https://google-admin.corp.google.com/page/overview/firebase-project/617822050972?jt=1&jv=196103298
+https://firebase.corp.google.com/project/id-soles/storage/usage/current-billing/total_bytes?token=ANdhuzvBBlNcUKRYsBWdDY4ec1H08j15HEu5MAL4-26Nwj_B30Z6Qx6HCFEM23crhkN-i7pwi6Nn9yOmrUWq6ca5IBnEUYlhmRc-YorP00__rYXUBB55gjdFc2pant7jCuB9wSOlw_cYYenEailoH_eCpBQqduJZm5cp5dgbMpJCzIVnP-I1B6Nx4yBWMTWiTgu1_rpUvPDJvS8NqJY-Erl_2-R7OJ17WWJs1sT8nTugPUPpNUXbmJ3r0eouhV97OXnzhSZl8ALlnFESOlqIY0phI-kYmhgxdv9Rm0E0sqTf4iP2-Y7jh6F4o--PeqsTK23nSDyrwU7twmP2r6NRMWmrAACWkjNc_BG4OIdbSqxI6EweVGGJW4NrhjBQ_mZCR-oUAtg7Mo9_
+https://g3doc.corp.google.com/company/teams/dps/Firebase/playbooks/cloud_firestore.md?cl=head
+https://firebase.google.com/docs/storage
+https://b.corp.google.com/issues/187340968
+https://firebase.google.com/support/scope
+https://g3doc.corp.google.com/company/teams/dps/Firebase/playbooks/cloud_storage.md?cl=head#objects-missing-metadata

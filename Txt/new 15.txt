@@ -1,0 +1,19 @@
+Case: 10142298 (https://firebase.lightning.force.com/lightning/r/Case/5005Y00001vgEY3QAM/view)
+Este es un Feature Request. 
+
+Vi que habia varios FT relacionados a Lerna (no sabia qué es, asi que lo busque https://lerna.js.org/ por si tampoco lo conocen) pero ninguno relacionado, entonces creare el FR y al dev le responderé lo siguiente: 
+
+Hello Vincent, 
+
+I hope you are doing great. Thank you for reaching out Firebase Support, this is Hugo and I will be happy to help you. 
+Thank you for your suggestion, we take into consideration any ideas from the community. I've filled up a feature request on your behalf and this will be up for discution. It is important to mention that filling a feature request does not guarantee its approval thus we can not provide any timelines or details about this request. 
+Please stay tuned of any updates and releases on our official blog (https://firebase.googleblog.com/) and our release updates (https://firebase.google.com/support/releases).
+
+Thank you very much and have a nice day. 
+
+Regards, 
+
+Hugo Varela. 
+
+
+El FT lo pondre así: https://screenshot.googleplex.com/4AqKiwMpha69DWG

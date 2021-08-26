@@ -1,0 +1,122 @@
+Case: 10141452 (https://firebase.lightning.force.com/lightning/r/Case/5005Y00001vfx07QAA/view)
+El dev me dice que puede subir imagenes a su app, pero que no las puede descargar, dice que solo obtiene una URL para verlas pero no da más detall, estuve revisando y segun yo, es una app android pero menciona que quiere descargar las imagenes a su computadora, entonces esto es lo que le planeaba responder:
+
+Hello Marco, 
+
+I hope you are doing great. Thank you for reaching out Firebase Support, this is Hugo and I willl be happy to help you out.
+I understand that you can upload images to your app but you can not download them to your computer, in order to continue helping you I would need you to share more information like: 
+
+-The plataform that you are using
+-In case you are getting any error message, please provide an screenshot
+-An screenshot or video of how you are trying to download so we can see the behavior
+
+In the midtime, here (https://firebase.google.com/docs/storage) you have some information that you would like to take a loot at. 
+
+I hope you find this information useful.
+
+Thank you very much and have a nice day. 
+
+Regards, 
+
+Hugo Varela.
+
+
+O sea si le pido mas info, pero tambien le doy a leer un poco mas porque me suena a que no ha implementado algo. Estuve revisando y no se si tenga que ver con esto https://b.corp.google.com/issues/187340968 por eso tambien  le pedi mas info. 
+
+No, si quiero que la revise, entonces lo pondria algo asi: 
+
+If you have not checked this information (https://firebase.google.com/docs/storage), I encourage you to do so.
+
+=======================================
+
+
+Hello Marco, 
+
+I hope you are doing great. Thank you for reaching out Firebase Support, this is Hugo and I willl be happy to help you out.
+I understand that you can upload images to your app but you can not download them to your computer, in order to continue helping you I would need you to share more information like: 
+
+-The plataform that you are using
+-In case you are getting any error message, please provide an screenshot
+-An screenshot or video of how you are trying to download so we can see the behavior
+
+In the midtime, here (https://firebase.google.com/docs/storage) you have some information in case you want to take a loot at it. 
+
+I hope you find this information useful.
+
+Thank you very much and have a nice day. 
+
+Regards, 
+
+Hugo Varela.
+
+========================================
+NO response: 1st Follow up
+========================================
+
+Hello Marco,
+
+Just wanted to follow up and see if you have made any progress on getting the requested information: 
+
+-The platform that you are using
+-In case you are getting any error message, please provide an screenshot
+-An screenshot or video of how you are trying to download so we can see the behavior
+
+Also wanted to check if you have the chance to check the provided documentation (https://firebase.google.com/docs/storage).
+
+Please reply back even if it is just to say you are still working on this, or if the issue is solved.
+
+If I don't hear back in 3 days, I'll close this case.
+
+Thanks,
+
+Hugo Varela.
+
+==========================================
+
+Hello Marco, 
+
+I hope you are doing great. 
+
+It is great news that you find a way to solve your issue, but in order to answer your question and provide you with some alternatives, I would need you to provide the following information: 
+
+-The platform that you are using
+-In case you are getting any error message, please provide an screenshot
+-An screenshot or video of how you are trying to download the images so we can see the behavior
+
+The other way around, we would be just wondering of what you are dealing with. The main point here is to solve this so you can continue working on your application. 
+
+Thank you very much and have a nice day.
+
+Regards, 
+
+Hugo Varela. 
+
+=============================================
+1st Follow Up again....
+=============================================
+
+Hola, a este DEV:
+
+-Se le pidio info para checar su caso y no respondio
+-se hizo un primer follow up y respondio sin proveer nada de info
+-se le volvio pedir info  y no respondio...no me ayudo a ayudarle :P 
+-segun entiendo, este seria de nuevo su primer follow up... 
+
+Hello Marco,
+
+Just wanted to follow up and see if you have made any progress on getting the requested information: 
+
+-The platform that you are using
+-In case you are getting any error message, please provide an screenshot
+-An screenshot or video of how you are trying to download so we can see the behavior
+
+Please reply back even if it is just to say you are still working on this, or if the issue is solved.
+
+Unfortunately, If I don’t hear back in 3 days, or if you following response does not include the requested information, the case will be closed. It is crucial to have this information to move on in the Investigation, otherwise we will be hand-tied with no chance to help.
+
+Thanks,
+
+Hugo Varela.
+
+
+

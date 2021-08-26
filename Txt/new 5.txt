@@ -1,0 +1,28 @@
+
+Case:10140952 (https://firebase.lightning.force.com/lightning/r/Case/5005Y00001vfogWQAQ/view)
+Sign out users via an endpoint in the Firebase Auth REST API
+
+Por lo visto a este señor le gusta mandar muchos FR de lo que le gustaria tener, tiene otros 3 aparte de este. Estaba checando en buganizer por si habia algun otro request parecido, pero al parecer nope.
+
+Esto es lo que le mandaria:
+
+
+Hello Bill, 
+
+I hope you are doing great, thank you for reaching out to Firebase Support, this is Hugo and I will be happy to help you.
+Thank you for your suggestion, it is very important for us, we appreciate any ideas because we are constantly improving our products.
+We can fill up the feature request with your idea of sign out user via an endpoint. It is important to mention that filling a feature request does not guarantee its approval thus we can not provide any timelines or details about this request. 
+Please stay tuned of any updates and releases on our official blog (https://firebase.googleblog.com/) and our release updates (https://firebase.google.com/support/releases).
+
+Thank you very much and have a nice day. 
+
+Regards, 
+
+Hugo Varela.
+
+Despues de eso, tendria que llenar el FR, segun yo, o primero se hace el FR y despues se manda la respuesta?
+Estaba checando lo que viene aqui : https://g3doc.corp.google.com/company/teams/dps/Firebase/processes/escalation.md?cl=head
+y aqui https://g3doc.corp.google.com/company/teams/firebase/views/feedback.md?cl=head
+ 
+
+ 

@@ -1,0 +1,30 @@
+Case: 10141139 (https://firebase.lightning.force.com/lightning/r/Case/5005Y00001vfsOgQAI/view)
+Lo que el DEV manda es : I have an account that had been locked out for some time now and I need it to be recovered as someone had been using it and it's hacking into it my account scruzing@gmail.com and who ever is hacking into it I have the proof in pics which I attached
+y puso como attachment una imagen donde pude obtener el nombre del proyecto porque no lo mando.
+
+Él ya habia mandado un caso antes haciendo referencia a lo mismo (https://firebase.lightning.force.com/lightning/r/Case/5005Y00001vfmetQAA/view)
+
+Y pensaba mandarle algo asi tomando en cuenta lo que dice aqui go/fb-extra-support-playbook#hacked pero modificandolo un poco ya que si tiene un proyecto de Firebase pero sigue haciendo referencia a que necesita recuperar su cuenta: 
+
+
+Hello Spencer, 
+
+I hope you are doing great, thank you for reaching out to Firebase Support, this is Hugo and I will be happy to help you out with your issue. 
+
+I understand that your account has been hacked, unfortunately account security is beyond our expertise however, I would love to provide further advice. 
+If you have not done so, please consider the following: 
+
+1. Recover your account by following the steps outlined here (https://support.google.com/accounts/answer/6294825?hl=en&ref_topic=3382255&authuser=0).
+2. Change your account's password (https://support.google.com/accounts/answer/41078?source=gsearch&hl=en) as soon as possible. This would prevent unauthorized users from having access to your account.
+3. Read through Gmail security (https://support.google.com/mail/answer/7036019?co=GENIE.Platform%3DDesktop&hl=en) for a list of tips on how to secure your account.
+4. Review your last account activities as discussed here (https://support.google.com/mail/answer/45938?hl=en&ref_topic=3394218).
+
+Then, for additional assistance or security issues regarding your Google personal account, please report using this link (https://www.google.com/contact/). This includes password problems, login issues, spam reports, suspected fraud and account abuse issues. Also, please be wary for some malicious links or suspicious sites that you may see on the web.
+
+I hope this would help you. If you have any Firebase-related questions (https://firebase.google.com/support/scope#google_services_outside_of_firebase), please reach out to us through https://firebase.google.com/support.
+
+Thank you very much and have a nice day. 
+
+Regards, 
+
+Hugo Varela.

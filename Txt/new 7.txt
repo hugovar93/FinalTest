@@ -1,0 +1,8 @@
+Pages to share:
+
+Firebase Support: https://firebase.google.com/support
+Scope of Support: https://firebase.google.com/support/scope#google_services_outside_of_firebase
+MCVE: https://stackoverflow.com/help/minimal-reproducible-example
+Verifying an outage: go/firebase-outage-verify
+Firebase Incident Lifecycle & Comms: go/firebase-ilc
+Handling Firebase Incidents: go/fb-handle-incidents

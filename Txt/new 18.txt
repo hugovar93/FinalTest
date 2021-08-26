@@ -1,0 +1,57 @@
+Case: 10142662 (https://firebase.lightning.force.com/lightning/r/Case/5005Y00001vgNVWQA2/view)
+
+En este caso el dev dice que quiere migrar RTDB a *northamerica-northeast1* porque dice que tienen un requerimiento para que toda su infor este hosteada en Canada pero que solo le da estas opciones : *us-central1, europe-west1, asia-southeast1* que son las que estan disponibles para RTDB y checando este PB (go/fb-rtdb-playbook#region-migration) tambien dice que son esas las opciones disponibles  
+Creo que él se esta confundiendo confundiendo con esta parte de la documentacion : https://firebase.google.com/docs/projects/locations#location-r pero ahi dice que son los recursos de GCP, no de RTDB 
+
+Cheque y su RTDB esta en us-central1 https://screenshot.googleplex.com/ARtidvFJMHxaF3a
+
+Entonces aqui se le tendria que explicar que esas son las tres locations disponibles para RTDB y que lo que ella trata de hacer es cambiar la de los recursos de GCP? Aunque la misma documentacion dice que eso no es posible https://firebase.google.com/docs/projects/locations#default-cloud-location o me estoy confundiendo? (help)
+
+
+
+Hello Chris, 
+
+I hope you are doing great. Thank you for reaching out Firebase Support, this is Hugo and I will be happy to help you. 
+I understand that you would like to get a Realtime Database in the northamerica-northeast1 region. Answering your question, this is not possible due to the regions for Realtime Database are limited to the three that are mentioned on the official documentation (https://firebase.google.com/docs/projects/locations#rtdb-locations): us-central1, europe-west1 and asia-southeast1. 
+The region that you mentioned (northamerica-northeast1) is part of the Regional Locations under the GCP resource locations (https://firebase.google.com/docs/projects/locations?authuser=0#default-cloud-location). I would recommend you to take a look a this documentation (https://firebase.google.com/docs/projects/locations?authuser=0#location-r) so you can have a better understanding of this. It is important to mention that the locations of your Realtime Database instances do not affect the options for your default GCP resource location.
+
+I hope that you find this information useful. Have a nice day. 
+
+Regards, 
+
+Hugo Varela.
+
+
+
+Hello Chris, 
+
+I hope you are doing great. Thank you for reaching out Firebase Support, this is Hugo and I will be happy to help you. 
+
+I understand that you would like to get a Realtime Database in the northamerica-northeast1 region. Answering your question, this is not possible due to the regions for Realtime Database are limited to the three that are mentioned on the official documentation (https://firebase.google.com/docs/projects/locations#rtdb-locations): us-central1, europe-west1 and asia-southeast1. 
+
+The region that you mentioned (northamerica-northeast1) is part of the Regional Locations under the GCP resource locations (https://firebase.google.com/docs/projects/locations?authuser=0#default-cloud-location), these are not for Realtime Database. I would recommend you to take a look a this documentation (https://firebase.google.com/docs/projects/locations?authuser=0#location-r) so you can have a better understanding of this. It is important to mention that the locations of your Realtime Database instances do not affect the options for your default GCP resource location.
+
+I hope that you find this information useful. Have a nice day. 
+
+Regards, 
+
+Hugo Varela.
+
+
+================================
+QUE PASARIA CON ANALITYCS
+================================
+
+Hello Chris, 
+
+I hope you are doing great. I am glad that the information that I provided to you was useful.
+Unfortunately, Analytics is not part of my expertise and I will not be able to help you with your inquiry. 
+I have filled up a case with you question so the right people can reach to you and continue helping you. 
+
+If you have any other Firebase-related (https://firebase.google.com/support/scope#google_services_outside_of_firebase) question, please do not hesitate to contact us through https://firebase.google.com/support.
+
+Thank you very much and have a nice day. 
+
+Regards, 
+
+Hugo Varela. 

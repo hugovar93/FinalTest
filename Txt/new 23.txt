@@ -1,0 +1,19 @@
+Case: 10143312 (https://firebase.lightning.force.com/lightning/r/Case/5005Y00001vgc3MQAQ/view)
+Estaba checando este caso pero encontre que este dev habia creado unos dias antes sobre lo mismo y ya lo estan atendiendo 10143027 (https://firebase.lightning.force.com/lightning/r/Case/5005Y00001vgVw3QAE/view)
+Tengo entendido por lo que vi en chats anteriores que este se cerraria como duplicado? 
+
+
+
+Hello David, 
+
+I hope you are doing great. Thank you for reaching out Firebase Support, this is Hugo and I will be happy to help you out.
+I was checking your case and I found out that you have already entered a case for this and it is now being assisted by one of my collegues.
+I will close this case since my collegue is already on this. Please note that we provide global support and we do our best to reach to you as soon as we can. 
+
+If you have any other issue, please reach out to us through https://firebase.google.com/support.
+
+Thank you very much and have a nice day. 
+
+Regards, 
+
+Hugo Varela. 

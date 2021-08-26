@@ -1,0 +1,75 @@
+Case: 10142325 (https://firebase.lightning.force.com/lightning/r/Case/5005Y00001vgFjHQAU/view)
+
+El dev dice que ha estado pasando las signup quotas, pero esta conciente que es debido a que desarrollaron una "mala apliacacion" pero dice que si mientras desarrollan otra podriamos incrementar esas quotas "indefinidamente" 
+Él dice que ve que esta fallando el login "due to the quota" pero no me da el error como para checar que onda y estuve viendo que hay como un buen de errores ahi https://docs.google.com/document/d/162B7_oNW_LyX5MrqjjEcfwWGcHvkLOOR2GAbqnWDtRs/edit#heading=h.tlwo31dotagy aqui no sé si pedirle que me lo pase porque él esta conciente de este comportamiento.
+
+Estaba checando esto que encontre relacionado a aumentar quotas go/fb-auth-playbook#sms-limited-quota pero como no se cual es el error en si, no podria utilizar este PB, creo...
+Encontre esto tambien go/firebear-increase-process#quota-increase-request pero segun yo ya se habia comentado y en este link tambien menciona que podria ser porque lanzaran la app o tendran un evento y puede requerir ese aumento... pero en este caso, no creo que le podamos decir de esto (si es un BLAZE), entonces ya no se si la respuesta para él debe ser *NO* o le pido como tal el error para ver qué recomendación le podemos dar... 
+
+Yo creería que se le debe decir que como quiere algo indefinido, pues eso no se puede pero que nos mande el error para ver como podemos ayudarlo. Eso creo yo, pero igual y no estoy viendo algo...
+
+
+
+
+
+-----------------------------------
+
+Hello Tim, 
+
+I hope you are doing great. Thank you for reaching out Firebase Support, this is Hugo and I will be happy to help you out.
+I understand that you would like to increase the quota for your project while you develop a new applicaton to replace it. For this we would need to go through a validation process in which we cannot assume or promise that the quota will be increased, if you would like to start the process, we would need the following information:
+
+1.Project number (or project-ID)
+2.Steps to reproduce the issue
+3.First time that you observed this issue and how long has it been happening
+4.Number of or percentage of end users being affected
+5.The desired level the quota should be increased to
+6.Use case
+7.How much you are exceeding the quota by 
+
+In the midtime, could you please provide an screenshot of the error that you are receiving so we can countinue troubleshooting this and check if there is a way that we can help you.
+
+Thank you very much and have a nice day. 
+
+Regards,
+
+Hugo Varela.  
+
+==================================
+Developer Responded
+==================================
+
+El dev respondio con la info y mando que su error, es el de *Exceeded quota for verifying passwords* y justo en la info que mando dice que es porque se estan utilizando cuentas de solo 5 servers y esta conciente que es algo por parte de ellos, entonces utilizando lo que menciona aqui: https://docs.google.com/document/d/162B7_oNW_LyX5MrqjjEcfwWGcHvkLOOR2GAbqnWDtRs/edit#heading=h.7bcrlt7dqmq1 yo le responderia así:
+
+
+Hello Tim, 
+
+I hope you are doing great. 
+
+Regarding the error that you are getting (Exceeded quota for verifying passwords) and based on the information that you provided, I would recommend you to consider implementing a user account for each user (instead of a single account for several users). If a single user account must be used for authentication, consider authenticating the users using the single user account on your server, then return a custom token (JWT) and have the user signInWithCustomToken(). In order to do so, I would recommend you to take a look at this documentation https://firebase.google.com/docs/auth/admin/create-custom-tokens.
+
+About your request, even if I create it, it would be rejected due to that missing point (How much you are exceeding the quota by) because this is an important parameter for the request to be approved, so once you can share this information, we can fill up the request for you. 
+It is important to mention that this process will take some time because it has to go through some validation processes as this cannot be taken lightly due to security reasons. 
+
+I hope you find this information useful. Have a nice day. 
+
+Regards, 
+
+Hugo Varela. 
+
+
+===================================
+1st Follow up
+===================================
+
+Hello Tim, 
+
+I hope you are doing great. 
+
+Just wanted to follow up and see if you have made any progress on getting the missing information "How much you are exceeding the quota by" so we can continue with your request. 
+
+Thank you very much and have a nice day. 
+
+Regards, 
+
+Hugo Varela. 

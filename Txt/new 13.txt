@@ -1,0 +1,65 @@
+Case: 10141895 (https://firebase.lightning.force.com/lightning/r/Case/5005Y00001vg639QAA/view)
+El dev menciona que no se ve su pagina de Index y que en su lugar aparece una pagina de Firebase. 
+PB: go/fb-hosting-playbook#site-not-loading
+
+Entonces lo que le responderia es: 
+
+Hello Alex, 
+
+I hope you are doing great. Thank you for reaching out Firebase Support, this is Hugo and I will be happy to help you out. 
+I understand that your index.html page is not showing and a Firebase index page is showing instead. This could be due to your app is pointing to the wrong index.html page during the deployment. The Firebase index page should be overwritten with your actual index.html file.    
+
+In order to start troubleshooting this issue, could you please try doing the following: 
+
+- Run the command, firebase use and check the output to make sure your local config is pointed to the correct Firebase project.
+
+- Check the firebase.json file and note that the public folder (or public attribute) is the same as the location of your hosting files.
+
+- Make sure that a index.html file is present. Otherwise, the default Firebase index.html will be displayed.
+
+I hope this information is useful for your issue, in case your issue persist, I would need you to please provide the following for further investigation:
+
+- Screenshot(s) of the issue
+- Logs by running the command firebase deploy --debug or firebase deploy --only hosting --debug
+- Screenshot of their web app directories
+
+Thank you very much and have a nice day. 
+
+Regards,
+
+Hugo Varela.
+
+
+================================================================================================================================================
+
+
+
+Hello Alex, 
+
+I hope you are doing great. Thank you for reaching out Firebase Support, this is Hugo Varela and I will be happy to help you out. 
+I was checking your issue and I could see your page with no problem [1]. This could be due to some reasons like:
+
+-Your app was pointing to the wrong index.html page during the deployment. The Firebase index page should be overwritten with your actual index.html file.    
+-It could be related to the files distribution, since Firebase uses a global CDN(Content Delivery network) maybe the files were not fully distributed within it at the moment you were trying to see your page.
+
+Thank you very much and have a nice day. In case you have another issue, do not hesitate to reach out to us through https://firebase.google.com/support
+
+Regards, 
+
+Hugo Varela.
+
+[1] https://screenshot.googleplex.com/5Qdh4js6TAB3uXP
+
+
+==================================================================================================================================================
+
+Hello Alex, 
+
+I hope you are doing great. I'm glad your issue is solved now. 
+If you have any other questions or problems, do not hesitate to reach out to us through https://firebase.google.com/support. 
+
+Thank you very much and have a nice day.
+
+Regards, 
+
+Hugo Varela.

@@ -1,0 +1,11 @@
+SUMMARY OF PROBLEM
+---------------------------------------
+As per user: Would really like to see point-in-time recovery added. This is a feature offered by Dynamodb and several other offerings. The cost to download the entire database and store in Cloud Storage is extremely expensive compared to Dynamo's price per GB.
+
+REASON FOR ESCALATION
+------------------------------------------
+This is a Feature Request
+
+DETAILS
+-------------
+Case Link: https://firebase.lightning.force.com/lightning/r/Case/5005Y00001vfzsVQAQ/view

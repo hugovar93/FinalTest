@@ -1,0 +1,96 @@
+Case: 10142682 (https://firebase.lightning.force.com/lightning/r/Case/5005Y00001vgO8TQAU/view)
+Este es un Feature Request.
+
+Esto es lo que le mandaria al DEV
+
+Hello Habid, 
+
+I hope you are doing great. Thank you for reaching out Firebase Support, this is Hugo and I will be happy to help you. 
+I've filled up a feature request on your behalf and this will be up for discussion. It is important to mention that filling a feature request does not guarantee its approval thus we can not provide any timelines or details about this request. 
+Please stay tuned of any updates and releases on our official blog (https://firebase.googleblog.com/) and our release updates (https://firebase.google.com/support/releases).
+
+Thank you very much and have a nice day. 
+
+Regards, 
+
+Hugo Varela.   
+
+Y asi pondria el FT: https://screenshot.googleplex.com/57vNB2kETTZzUdR
+
+
+
+- Fully Authentication setup and configuration forGoogle and Email crear duplicado https://b.corp.google.com/issues/177060689
+- Fully setup and configuration for Google Consent Screen
+- Implement Google Maps api key generation with Terraform (que ne meme)
+- Terraform data source for Firestore documents
+
+
+
+
+He estado revisando esto... 
+Para su primer peticion *Fully Authentication setup and configuration forGoogle and Email* , tendriamos que crear un duplicado de  https://b.corp.google.com/issues/177060689
+Para la segunda *Fully setup and configuration for Google Consent Screen*, entiendo que es algo que va mas hacia GCP, estaba leyendo esto https://support.google.com/cloud/answer/10311615?hl=en entonces no creo que lo debamos crear nosotros
+La tercera es la de google maps
+Para la cuarta *Terraform data source for Firestore documents* asi como esta, entiendo que es algo mas del lado de terraform, como sea, encontre este bug https://buganizer.corp.google.com/issues/120735522 que marcaron como fix y mas bien lo manda a esta documentacion https://cloud.google.com/firestore/docs/solutions/automate-database-create#create_a_database_with_terraform
+
+Entonces aqui tengo duda de si solo creamos el FR duplicado para el primer punto y le recomendamos que revise esa documentacion y ya?
+
+
+==========================================================
+ASK FOR CLARIFICATION ON NUMBER 4
+==========================================================
+
+Hello Habid, 
+
+I hope you are doing great. Thank you for reaching out Firebase Support, this is Hugo and I will be happy to help you. 
+I would like to start thanking you for all your ideas of improvement, this is important for us as we are constantly improving our products. 
+Regarding to your four improvements, let's take a look one by one: 
+
+1. Fully Authentication setup and configuration for Google and Email: I have filled up a request for this point. It is important to mention that filling a feature request does not guarantee its approval thus we can not provide any timelines or details about this request. 
+Please stay tuned of any updates and releases on our official blog (https://firebase.googleblog.com/) and our release updates (https://firebase.google.com/support/releases). 
+2. Fully setup and configuration for Google Consent Screen: unfortunately, this is related to GCP and not directly to Firebase, so I would recommend you to reach out to GCP support. 
+3. Implement Google Maps api key generation with Terraform: as the point above, Google maps is out of our scope, so we will not be able to help you with this point. 
+4. Terraform data source for Firestore documents: In order to fill up your request, I would like you to elaborate on this point, so we can put it on the right direction.
+
+In order to get support for points 2 and 3, I would recommend you to start from here https://cloud.google.com/support-hub#section-6
+
+Thank you very much and have a nice day. 
+
+Regards, 
+
+Hugo Varela
+
+
+Para los puntos 3 y 4 lo debemos mandar aqui https://cloud.google.com/support-hub#section-6?? 
+
+
+Old Issue: http://b/177060689
+New Issue: http://b/197338929
+
+SUMMARY OF PROBLEM
+---------------------------------------
+As per user: Hi, i'm DevOps on Loadsure organization and i'm implementing continuous provisioning on a firebase but Authentication method doesn't has any way to do using firebase cli or gcloud cli and less using Terraform. So i want to request the next feature
+
+- Fully Authentication setup and configuration for Google and Email
+
+DETAILS
+--------------
+Case Link: https://firebase.lightning.force.com/lightning/r/Case/5005Y00001vgO8TQAU/view
+
+
+
+
+===========================================================
+1st Follow up
+===========================================================
+Hello Habid, 
+
+I hope you are doing great. Just wanted to follow up and see if you have made any progress describing your fourth request in detail "Terraform data source for Firestore documents". We would need that in order to fill up your request or put it on the right direction. 
+
+Please reply back even if it is just to say you are still working on this. If I don't hear back in 3 days, I'll close this case.
+
+Thank you very much and have a nice day. 
+
+Regards, 
+
+Hugo Varela.

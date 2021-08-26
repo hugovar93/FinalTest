@@ -1,0 +1,26 @@
+Hello Richard, 
+
+I hope you are doing great. Thank you for contact Firebase Support, this is Hugo Varela and I will be happy to help you with your issue. 
+
+I understand that you are having problems deploying your functions. This could be an issue with the Cloud Functions Configuration. In order to fix this issue, you will need to reset your Cloud Functions configuration by:
+
+	1. Going to the Cloud Console > Cloud Functions List and delete all of your deployed functions.
+	2. Go to API Manager and disable the Google Cloud Functions API (don't forget that you need to select the project you want reset the configurations).
+	3. Re-deploy your functions.
+
+Please let me know if we can help you out with anything else. 
+
+Thank you very much and have a nice day. 
+
+Regards, 
+
+Hugo Varela.
+
+===================================================================================
+NOTES:
+===================================================================================
+*I found the previous response on the following link:
+	-https://g3doc.corp.google.com/company/teams/dps/Firebase/playbooks/cloud_functions.md?cl=head#BQ8CCQIJBQo
+*I also foun these links that might help:
+	-https://stackoverflow.com/questions/48345315/error-deploying-with-firebase-on-npm-prefix-resource-dir-run-lint
+	-https://stackoverflow.com/questions/63583106/get-http-error-404-method-not-found-when-running-firebase-deploy-only-fu

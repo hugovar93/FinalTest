@@ -1,0 +1,43 @@
+Hello Solaris,
+
+Thank you for contacting Firebase support, my name is Hugo Varela and I will be happy to help you with your issue.
+
+I understand that you deleted your users data and want us to restore it from a certain point. We can help you with that, but we also need you to fill in the 
+following information. Please note that the database needs to be wiped before we can do the restore. During the restore, your database will be paused and unavailable.
+
+----------------------------------------------------------------------------------------------------------------------------
+
+REQUEST TO UPLOAD FROM BACKUP
+
+I authorize the Firebase infrastructure team to restore backup data for https://{PROJECT NAME}.firebaseio.com. I understand that in order to complete the restore a Firebase employee will have temporary access to all of my data.
+
+I would like to restore from backup dated before YYYY-MM-DD-HH UTC. I am aware that backups occur regularly throughout the day and I have selected the correct date and time
+
+I'm also aware my database will be completely overwritten and unavailable during its restoration.
+
+The purpose of this is to restore data lost when {BRIEF SUMMARY OF HOW DATA WAS LOST}.
+
+----------------------------------------------------------------------------------------------------------------------------
+
+Once you provide us with this information, we can get the process started. It is important to mention that this process may take up to 24 hours. 
+
+Thank you very much and have a nice day.
+
+Regards, 
+
+
+----------------------------------------------------------------------------------------------------------------------------
+NOTES
+----------------------------------------------------------------------------------------------------------------------------
+-By the Troubleshooter Path, I noticed the "rtdb" so I started from there.
+ -https://g3doc.corp.google.com/company/teams/dps/Firebase/playbooks/rtdb.md?cl=head
+ -Here I found the link to the "restored from backup"
+
+ -https://g3doc.corp.google.com/company/teams/dps/Firebase/playbooks/rtdb.md?cl=head#restore-from-backup
+ -Here we can found the canned response to ask the user for the needed information. 
+ 
+ -https://g3doc.corp.google.com/company/teams/dps/Firebase/playbooks/project_ownership.md?cl=head#verify-owner
+ -Here we can see the steps to verify the owner of the project.
+ 
+ -The only pending thing I have is how to know when an account is either paid or not.
+ 

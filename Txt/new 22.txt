@@ -1,0 +1,20 @@
+Case: 10143224 (https://firebase.lightning.force.com/lightning/r/Case/5005Y00001vgZDEQA2/view)
+Este caso es de reglas de seguridad de Cloud firestore, al dev le estan llegando notificaciones de que sus reglas son inseguras y pues si.
+https://screenshot.googleplex.com/6VnxYpPnSTtH5Bo justo como dice la documentacion que no...https://firebase.google.com/docs/firestore/security/insecure-rules#open_access
+
+Entonces lo que le responderia es: 
+
+Hello Pierre, 
+
+I hope you are doing great. Thank you for reaching out Firebase Support. This is Hugo and I will be happy to help you.
+I understand that you have been receiving emails letting you know that your Cloud Firestore has insecure rules.
+This is because the rules that you have set are considered insecure because that means that anyone who logs into the application will have full access to read and write or even overwrite the entire database (https://firebase.google.com/docs/firestore/security/insecure-rules#open_access)
+I would recommend you to check this information about how to fix insecure rules(https://firebase.google.com/docs/firestore/security/insecure-rules). Also, I would recommend you to take a look this documentation where you can find more information about writing conditions for Cloud Firestore security rules(https://firebase.google.com/docs/firestore/security/rules-conditions) and this other related to secure data access(https://firebase.google.com/docs/firestore/solutions/role-based-access). 
+
+I hope this information will be useful for you, and please feel free to reply if you have any further questions, I will do my best to help you out.
+
+Have a nice day. 
+
+Regards, 
+
+Hugo Varela.
