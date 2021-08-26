@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>NO PLASTIC GYM - Login</title>
+
+    <!--Latest compiled and minified css-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <!--jQuery library-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!--Latest compiled Javascript-->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <!--FIREBASE-->
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
+    <!--<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-storage.js"></script>
+    FIREBASE-->
+</head>
+<body style="background-image: url('../No_Plastic_Gym/Images/gym_background.jpg'); background-color: rgba(0, 0, 0, .5); background-repeat: no-repeat; background-size: cover; background-position: center center; background-attachment: fixed;">
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="../No_Plastic_Gym/index.html">NO PLASTIC'S GYM <p class='glyphicon glyphicon-apple' style='color: red; height: inherit;'></p></a>
+          </div>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="../No_Plastic_Gym/index.html"><span class="glyphicon glyphicon-thumbs-down"></span> Cancel</a></li>
+          </ul>
+        </div>
+      </nav>
+    <div class="container container-sm container-md container-lg rounded" style="background-color: #222; color: #9d9d9d; border-radius: 15px 15px 15px 15px;">
+        <form id="loginForm">
+            <h3>Login</h3>
+            <div class="form-wrapper">
+                <label >Email address</label>
+                <input id="loginEmail" type="email" class="form-control" aria-describedby="emailHelp" placeholder="Enter email">
+            </div><br>
+            <div class="form-wrapper">
+                <label >Password</label>
+                <input id="loginPassword" type="password" class="form-control" placeholder="Enter password">
+            </div><br>
+            <div class="form-group">
+                <button id="btn-login" type="submit" class="btn btn-info">Login</button>
+            </div>
+            <div>
+                <a href="">Forgot Password?</a>
+            </div><br>
+        </form>
+    </div>
+
+    <script>
+    // Web app's Firebase configuration
+    var firebaseConfig = {
+        apiKey: "AIzaSyAU6Q-UDX2mKOPJgtRn1uXmOywgc6Mn8xA",
+        authDomain: "noplastic-sgym.firebaseapp.com",
+        projectId: "noplastic-sgym",
+        storageBucket: "noplastic-sgym.appspot.com",
+        messagingSenderId: "1028103037541",
+        appId: "1:1028103037541:web:261f5bedf2526c2af69c8c"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    //Log In User code
+    document.getElementById("btn-login").addEventListener('click', (loginEvent) =>{
+    loginEvent.preventDefault();
+
+    var email = $('#loginEmail').val();
+    var password = $('#loginPassword').val();
+
+    firebase.auth().signInWithEmailAndPassword(email, password).then(credentials =>{
+        console.log(credentials.user);
+        window.location.href = "../No_Plastic_Gym/usersList.html"
+    });
+    });
+    </script>
+</body>
+</html>
